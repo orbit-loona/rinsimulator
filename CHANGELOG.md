@@ -8,3 +8,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Created User Interface
 - Created user entry fields
+- Added ability to remember player's name (variable is called uname) and what the player likes (variable is called userlikes)
