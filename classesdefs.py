@@ -13,7 +13,7 @@ class char:
 
 
 #Characters:
-Rin = char("Rin", "rin1.png", "speechbox.png", "black")
+Rin = char("Rin", "rin", "speechbox.png", "black")
 char01 = char("uname", "placeholder.png", "white", "black")
 
 
@@ -54,8 +54,8 @@ def userentry(prompt, extratext, window):
     uentry.undraw()
     extratext.undraw()
     return textentered
-def setemotion(emotion, window, img, speechbox, clicktocontinue):
-    imgret = Image(Point(720,427), str(emotion) + ".png")
+def setemotion(charc, outfit, emotion, window, img, speechbox, clicktocontinue):
+    imgret = Image(Point(720,427), charc.imgpath + "/" + outfit + "/" + emotion + ".png")
     speechbox.undraw()
     img.undraw()
     clicktocontinue.undraw()
