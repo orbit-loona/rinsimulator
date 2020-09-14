@@ -2,7 +2,7 @@ import graphics
 from graphics import *
 
 #Quick note, i'm centering all text for now bc it makes my life a million times easier,
-#but by the time this gets an alpha version that will have to change.
+#but by the time this gets a release version that will have to change.
 
 #Graphics setup:
 window = GraphWin("Rin Simulator Beta 0.1", 1440, 855)
