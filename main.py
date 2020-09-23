@@ -184,7 +184,7 @@ def discordbuttonclick():
     clickposy = float(str(clickpos)[13:18])
     if (500 < clickposx < 940) and (620 < clickposy < 690):
         import webbrowser
-        webbrowser.open('https://discord.gg/kvtVBnC')
+        webbrowser.open('https://discord.gg/xnXbc8F')
     else:
         discordbuttonclick()
 discordbuttonclick()
